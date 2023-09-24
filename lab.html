@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>WEB </title>
+    <style>
+        header {
+            background-color: forestgreen;
+            text-align: center;
+            color: white;
+            font-family: Arial, Arial, Helvetica, sans-serif;
+            font: caption;
+            font-size: large;
+        }
+
+        footer {
+            background-color: forestgreen;
+            text-align: center;
+            color: white;
+            font-family: Arial, Arial, Helvetica, sans-serif;
+            font: caption;
+            font-size: large;
+        }
+
+        #content {
+            background-color: blue;
+            padding-left: 5%;
+            width: 500px;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 1px 5%;
+        }
+
+        #border {
+            width: 100px;
+            height: 100px;
+            border: 5px solid white;
+            border-radius: 15px 0px 15px 0px;
+            margin-right: 25px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            color: white;
+            text-align: left;
+            padding-bottom: 15px;
+            font-size: xx-large;
+        }
+
+        p {
+            color: white;
+            margin-top: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+        }
+
+        li {
+            color: white;
+        }
+
+        span {
+            color: white;
+        }
+
+        td {
+            width: 30px;
+            height: 30px;
+            border: solid 2px black;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<header> Hello header!</header>
+<div id="content">
+    <h1> Hello, content!</h1>
+    <div id="border" style="float: left;"></div>
+    <span style="font-size: larger; text-align: center; "> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span>
+    <a href="www.csd.tsu.ru" style="text-align:center; display: block; color: rgb(208, 14, 14); text-decoration: underline;"> www.csd.tsu.ru</a>
+    <div>
+        <p style="font-size: x-large; word-spacing: 10px; font-weight: bolder;"><span style="color:red;">Here</span> is the list:</p>
+        <ul>
+            <li>Value 1</li>
+            <li style="letter-spacing: 5px; color: aqua;">Value 2</li>
+            <li>Value 3</li>
+        </ul>
+    </div>
+    <div>
+        <p style="font-size: large; font-weight: 600;">Here are some visual styles:</p>
+        <p style="font-style: italic;">Italic</p>
+        <p style="font-weight: bolder;">Bold</p>
+        <p style="text-decoration: underline;">UnderLined</p>
+        <p style="text-decoration: line-through;">Line through</p>
+    </div>
+    <div style="position: absolute; left: 80%; bottom: 10%;">
+        <table>
+            <tr>
+                <td rowspan="2" style="background-color:green;">1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td colspan="2" style="background-color:red;">7</td>
+            </tr>
+        </table>
+        <img alt="greenpick" style="margin-top: 5px; float: right;" src="images.png" />
+
+    </div>
+</div>
+<footer>Hello Footer!</footer>
+</html>
